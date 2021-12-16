@@ -63,6 +63,8 @@ Each INPUT can be configured via the following properties;
 
 ::: warning
 Inverting a normally-open (NO) button input will result in a constant stream of `hold` events!
+Also when using Button types the onboard temperature sensor on a rack32 may cause issues as it takes 
+up resources while processing, causing  wrong press values to be reported
 :::
 
 ### Examples
